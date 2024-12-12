@@ -115,6 +115,20 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
+.heading-primary {
+  font-size: clamp(3rem, 5vw, 6rem); /* Flexible size for responsiveness */
+  line-height: 1.2; /* Compact, but readable */
+  font-weight: 700; /* Bold for emphasis */
+  text-align: left; /* Left-align for a modern look */
+  color: #1c1c1c; /* Rich, dark color for contrast */
+  text-transform: capitalize; /* Clean title-case look */
+  margin-bottom: 2.4rem; /* Space between heading and text below */
+
+  background-image: linear-gradient(to right, #cf711f, #ffaf3d);
+  -webkit-background-clip: text; /* Clip gradient into text */
+  -webkit-text-fill-color: transparent; /* Make the rest transparent */
+}
+
 .delivered-meals {
   display: flex;
   align-items: center;
@@ -249,14 +263,14 @@
   font-weight: 600;
 }
 
-.tag--vegetarian {
-  background-color: #51cf65;
+.tag--keto {
+  background-color: #ff9f1c;
 }
 .tag--vegan {
   background-color: #94db2d;
 }
-.tag--paleo {
-  background-color: #ffd43b;
+.tag--cheesy {
+  background-color: #ffefd5;
 }
 
 .pizza {
