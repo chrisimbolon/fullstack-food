@@ -56,6 +56,7 @@ instead, 1rem = 1em = 16px */
 
 /* BELOW 1055px (Smaller Tablet) */
 /* 1055px / 16 = 566 so 66em */
+
 @media (max-width: 65em) {
   html {
     font-size: 50%;
@@ -64,11 +65,13 @@ instead, 1rem = 1em = 16px */
   .hero {
     grid-template-columns: 1fr;
     justify-content: center;
+    align-items: center; /* Ensure vertical centering */
+    text-align: left;
   }
 
   .hero-text-box {
-    width: 70%;
-    /* justify-content: center; */
+    width: 80%;
+    margin: 0 auto; /* Center the hero text box */
   }
 
   .delivered-imgs {
@@ -88,6 +91,19 @@ instead, 1rem = 1em = 16px */
   .gallery {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+  }
+
+  .cta {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .btn-form {
+    margin-top: 1.2rem;
   }
 }
 
