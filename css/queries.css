@@ -54,11 +54,40 @@ instead, 1rem = 1em = 16px */
   }
 }
 
-/* BELOW 944px (Smaller Tablet) */
-/* 944px / 16 = 59 so 75em */
-@media (max-width: 59em) {
+/* BELOW 1055px (Smaller Tablet) */
+/* 1055px / 16 = 566 so 66em */
+@media (max-width: 65em) {
   html {
     font-size: 50%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .hero-text-box {
+    width: 70%;
+    /* justify-content: center; */
+  }
+
+  .delivered-imgs {
+    justify-content: center;
+  }
+
+  .pizza-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+
+  .section-testimonials {
+    background-color: #fff7eb;
+
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 

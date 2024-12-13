@@ -109,7 +109,6 @@
 
 .hero-text-box {
   grid-column: 2; /* Move to the second column */
-  /* background-color: #fbe4c3; */
   background-color: #ffeed4;
   padding: 1.4rem; /* Optional: Add some padding for better spacing */
   border-radius: 8px; /*  Round the corners */
