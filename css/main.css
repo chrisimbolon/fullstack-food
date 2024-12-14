@@ -21,6 +21,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -28,6 +29,9 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+
+  /* works only when there is nothing absolutely in relation to body      */
+  overflow-x: hidden;
 }
 
 /* GENERAL REUSABLE COMPONENTS */
