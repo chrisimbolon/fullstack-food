@@ -90,7 +90,7 @@ instead, 1rem = 1em = 16px */
 
   .gallery {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .cta {
@@ -204,6 +204,72 @@ instead, 1rem = 1em = 16px */
     grid-row: 1;
     grid-column: span 2;
     margin-bottom: 3.2rem;
+  }
+}
+
+/* BELOW 660px (Phone) */
+/* 863px / 16 = 42.25 so 42em */
+
+@media (max-width: 41em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .btn,
+  .btn:link,
+  .btin:visited {
+    padding: 2.4rem;
+  }
+
+  .hero {
+    padding: 0 3.2rem;
+  }
+
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+
+  .logos img {
+    height: 1.2rem;
+  }
+
+  .step-img-box:nth-child(2) {
+    grid-row: 1;
+  }
+
+  .step-img-box:nth-child(6) {
+    grid-row: 5;
+  }
+
+  .step-img-box {
+    transform: translateY(2.4rem);
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-img-box {
+    height: 54rem;
+  }
+
+  .cta-text-box {
+    padding: 3.2rem;
   }
 }
 
