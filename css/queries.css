@@ -106,8 +106,11 @@ instead, 1rem = 1em = 16px */
     margin-top: 1.2rem;
   }
 
+  /* Mobile Nav */
+
   .btn-mobile-nav {
     display: block;
+    z-index: 999;
   }
 
   .main-nav {
