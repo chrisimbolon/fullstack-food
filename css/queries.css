@@ -276,12 +276,4 @@ instead, 1rem = 1em = 16px */
   }
 }
 
-/* keep the distance */
 
-/* yang dibawah ini dari AI */
-/* @media (max-width: 768px) {
-  .heading-primary {
-    font-size: clamp(2.4rem, 5vw, 4.5rem);
-    text-align: left;
-  }
-} */

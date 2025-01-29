@@ -657,7 +657,7 @@
 .footer-link:link,
 .footer-link:visited {
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: #767676;
   transition: all 0.5s;
 }
@@ -669,7 +669,7 @@
 
 .contacts {
   font-style: normal;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   line-height: 1.6;
 }
 
