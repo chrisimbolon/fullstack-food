@@ -276,7 +276,7 @@
 }
 
 .step-img {
-  width: 30%;
+  width: 50%;
 }
 
 /* PIZZAS SECTION */
@@ -563,7 +563,7 @@
       rgba(235, 151, 78, 0.363),
       rgba(230, 125, 34, 0.341)
     ),
-    url("../img/Fullstack-Pizza-Bottom.png");
+    url("../img/Fullstack-Pizza-Bottom.webp");
   background-size: cover;
   background-position: center;
 }
